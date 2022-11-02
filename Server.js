@@ -6,7 +6,7 @@ App.set("view engine", "ejs");
 App.set("views", "./views");
 const server = require("http").Server(App);
 const io = require("socket.io")(server);
-server.listen(399);
+server.listen(process.env.PORT || 2222);
 // const socket=io()
 //server muon gui lai danh sach thong tin gi data phai co arrays
 const Arrs = [];

@@ -1,4 +1,4 @@
-const socket = io("http://localhost:399");
+const socket = io("https://mssudangkionline.herokuapp.com");
 socket.on("Server_send_list", function (data) {
   $("#list").html("");
   data.map(function (usess) {
