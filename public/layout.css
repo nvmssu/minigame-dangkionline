@@ -1,0 +1,27 @@
+#wrapper {
+  width: 400px;
+  margin: auto;
+}
+#infomation {
+  border: solid 1px goldenrod;
+  margin: 10px;
+  padding: 10px;
+}
+#txtfulname,
+#txtemail,
+#txtphone {
+  /* display: block; */
+}
+.user {
+  border-bottom: solid 1px blanchedalmond;
+}
+#list {
+  text-align: center;
+}
+.dong1 span {
+  color: green;
+  font-weight: bold;
+}
+#listusers h3 {
+  text-align: center;
+}

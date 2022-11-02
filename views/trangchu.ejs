@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="layout.css" type="text/css" />
+    <title>Dang ki</title>
+    <script>
+      // socket.on("Sever_send_data", function (data) {
+      //   $("#content").append(data + ",");
+      // });
+
+      // $(document).ready(function () {
+      //   $("#Mra").click(function () {
+      //     socket.emit("Client_send_data", "hello");
+      //   });
+      // });
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="infomation">
+        <input type="text" class="" id="txtfulname" placeholder="Ho ten" />
+        <input type="text" class="" id="txtemail" placeholder="Email" />
+        <input type="text" class="" id="txtphone" placeholder="So dien thoai" />
+        <input type="button" class="" id="btnregister" value="Send" />
+      </div>
+      <div id="listusers">
+        <h3>Danh sach user</h3>
+        <div id="list"></div>
+      </div>
+    </div>
+  </body>
+  <script src="xuli.js"></script>
+</html>
